@@ -1,0 +1,214 @@
+
+
+body {
+
+  font-family: Helvetica; 
+  
+}
+
+
+
+
+body {
+	 background-image: url(background.jpeg);
+	 center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+	 color: white;
+
+}
+
+a{
+color: white;
+text-decoration: none;
+
+}
+
+
+.cube p {
+	display: block;
+
+	width: 400px;
+	height: 50px;
+	background-color: black;
+ padding:20px 20px 20px 20px;
+ margin: 0 auto;
+   font-family:Helvetica;
+
+      font-size: 20px;
+
+      font-weight: bold;
+      color: white;
+      text-align: center;
+}
+
+.cube {
+	 display: inline-flex;
+	 width: 400px;
+	 height: 100px;
+
+
+}
+
+
+h1 {
+
+	font-family: Helvetica;
+	font-size: 90px;
+	color: yellow;
+	text-align: center; 
+}
+
+
+.boxA {
+	background-color: black; 
+	width: 350px;
+	height: 350px;
+	margin: 5px;
+	margin-left: 1px; 
+	max-height: 0;
+	overflow: hidden;
+	transition: all 1s ease-in-out;
+	object-fit: scale-down;
+
+	}
+
+.boxB {
+	background-color: black; 
+	width: 350px;
+	height: 350px;
+	margin: 5px;
+	margin-left: 420px;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 1s ease-in-out;
+	object-fit: scale-down;
+
+	}
+
+.boxC {
+	background-color: black; 
+	width: 350px;
+	height: 350px;
+	margin: 5px;
+	margin-left: 420px;
+	max-height:0;
+	overflow: hidden;
+	transition: all 1s ease-in-out;
+	object-fit: scale-down;
+
+	}
+
+.boxD {
+	background-color: black; 
+	width: 350px;
+	height: 350px;
+	margin: 5px;
+	margin-left: 820px;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 1s ease-in-out;
+	object-fit: scale-down;
+
+	}
+
+	.boxE {
+	background-color: black; 
+	width: 350px;
+	height: 350px;
+	margin: 5px;
+	margin-left: 1px;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 1s ease-in-out;
+	object-fit: scale-down;
+
+	}
+
+.boxF {
+	background-color: black; 
+	width: 350px;
+	height: 350px;
+	margin: 5px;
+	margin-left: 820px;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 1s ease-in-out;
+	object-fit: scale-down;
+
+	}
+
+
+.boxG {
+	background-color: black; 
+	width: 350px;
+	height: 350px;
+	margin: 5px;
+	margin-left: 1px;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 1s ease-in-out;
+	object-fit: scale-down;
+
+	}
+
+	.boxH {
+	background-color: black; 
+	width: 350px;
+	height: 350px;
+	margin: 5px;
+	margin-left: 820px;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 1s ease-in-out;
+	object-fit: scale-down;
+
+	}
+
+.boxI {
+	background-color: black; 
+	width: 350px;
+	height: 350px;
+	margin: 5px;
+	margin-left: 420px;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 1s ease-in-out;
+	object-fit: scale-down;
+
+	}
+
+.clicked {
+	max-height: 400px; 
+}
+
+img {
+  object-fit: fill; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%; 
+  text-align: center;
+  color: red;
+  position: relative;
+
+}
+
+
+h2 {
+	
+
+   font-family:Helvetica;
+
+      font-size: 30px;
+      color: black;
+      text-align: center;
+      margin-top: -20px; 
+      padding-bottom: 20px; 
+      
+      
+}
